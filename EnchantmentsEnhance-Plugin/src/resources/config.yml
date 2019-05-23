@@ -26,7 +26,7 @@ language: EN_US
 enableWelcomeMessage: true
 
 # Set false to disallow stacked item to be enhanced.
-enableStackedItem: false
+enableStackedItem: true
 
 # Set true to enable vanilla enchanting table and when someone uses it, CROUCHING + RIGHT click on it will open enhance menu.
 enableTableEnchant: true
@@ -51,7 +51,7 @@ enableFancyAnnouncer: true
 enableFancyNotify: true
 
 # Set true to enable some features that are related to $.
-enableEconomy: false
+enableEconomy: true
 
 # Set false to disallow players take out stones from virtual inventory.
 enableItemMaterialization: true
@@ -282,7 +282,7 @@ slots:
   # Armor includes armor contents and item in hand.
   enableArmor: true
   # [Working In Progress]
-  enableAcessory: false
+  enableAcessory: true
 # Accessory slots.
 # Player will place their items to those position in order to use their accessories.
 # Player Inventory Slot Reference: https://github.com/25/EnchantmentsEnhance/blob/master/.images/player_inventory.png
